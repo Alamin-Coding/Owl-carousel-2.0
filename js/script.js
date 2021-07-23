@@ -7,7 +7,7 @@ $(function(){
         // center:true,
         loop:true,
         autoplayTimeout:1000,
-        autoplay:true,
+        // autoplay:true,
         autoplayHoverPause:true,
         nav:true,
         dots:true,
@@ -24,5 +24,18 @@ $(function(){
             }
         }
     });
+
+    // WOW JS
+    
+    wow = new WOW(
+        {
+        boxClass:     'wow',      // default
+        animateClass: 'animated', // default
+        offset:       0,          // default
+        mobile:       true,       // default
+        live:         true        // default
+      }
+      )
+      wow.init();
     
 })  
